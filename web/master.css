@@ -1,4 +1,4 @@
-header{
+.header{
   position: fixed;
   top: 0%;
   left: 0%;
@@ -7,46 +7,46 @@ header{
   background-color: #ffffff;
   z-index: 1000;
 }
-header .barleft{
+.header .barleft{
   position: absolute;
   left: 0%;
 }
-header img{
+.header img{
   cursor: pointer;
   padding-left: 5%;
   height: 65px;
   width: auto;
 }
-header .barleft a{
+.header .barleft a{
   vertical-align: 65%;
   padding-left: 5%;
   font-size: 22pt;
   font-family: sans-serif;
   cursor: pointer;
 }
-header a:hover{
+.header a:hover{
   color: #708090;
 }
-header .barright{
+.header .barright{
     position: absolute;
     right: -5%;
     padding-top: 1%;
 }
-header .barright img{
+.header .barright img{
   position: absolute;
   width:20px;
   height: 20px;
   left: -3%;
   top: 50%;
 }
-header .barright a{
+.header .barright a{
   vertical-align: text-bottom;
   padding-left: 10%;
   font-size: 22pt;
   font-family: sans-serif;
   cursor: pointer;
 }
-header input[type=text]{
+.header input[type=text]{
   padding-left: 0%;
   border-radius: 10px;
   height: 26px;
